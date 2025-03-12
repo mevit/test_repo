@@ -10,8 +10,7 @@ class Person {
     }
 }
 
-const andy = new Person('Andy', 22);
+const andy = new Person('Andy', 23);
 
 console.log(andy.isAdult());
-andy.printPersonInfo();
 andy.printPersonInfo();
