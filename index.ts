@@ -13,5 +13,4 @@ class Person {
 const andy = new Person('Andy', 24);
 
 console.log(andy.isAdult());
-console.log(andy.isAdult());
 andy.printPersonInfo();
