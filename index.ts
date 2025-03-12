@@ -4,7 +4,13 @@ class Person {
     printPersonInfo() {
         console.log(`Name: ${this.name}; Age: ${this.age}`);
     }
+
+    isAdult(): boolean {
+        return this.age >= 18
+    }
 }
 
 const andy = new Person('Andy', 22);
+
+console.log(andy.isAdult());
 andy.printPersonInfo();
