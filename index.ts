@@ -14,3 +14,4 @@ const andy = new Person('Andy', 22);
 
 console.log(andy.isAdult());
 andy.printPersonInfo();
+andy.printPersonInfo();
